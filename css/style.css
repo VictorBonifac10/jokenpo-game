@@ -112,7 +112,7 @@ h3{
     margin-bottom: 30px;
     border: none;
     border-radius: 10px;
-    transition: 0.1s ease-in-out;
+    transition: transform 0.1s ease-in-out;
     font-size: 28px;
 }
 
@@ -120,6 +120,15 @@ h3{
     opacity: 0.6;
     transform: scale(1.05);
 }
+
+  @keyframes pulsar {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+  }
+
+  .animando {
+    animation: pulsar 2s ease-in-out;
+  }
 
 #rock{
     background: #7ab20a;
@@ -133,17 +142,17 @@ h3{
     background: #8507a8;
 }
 
-.result{
+#result{
     color: rgb(93, 0, 12);
     margin-bottom: 5px;
 }
 
-.your-score span{
+.your-score{
     color: rgb(0, 0, 122);
     font-weight: 600;
 }
 
-.machine-score span{
+.machine-score{
     color: rgb(93, 0, 12);
     font-weight: 600;
 }
