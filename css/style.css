@@ -118,6 +118,7 @@ h3{
 
 .btn-sign:hover{
     opacity: 0.6;
+    transform: scale(1.05);
 }
 
 #rock{
