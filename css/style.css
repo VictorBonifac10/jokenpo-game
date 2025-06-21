@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px 20px 30px;
+    box-shadow: 2px 2px 15px #000;
+    align-items: center;
+}
+
+.logo-box {
+    display: flex;
+    align-items: center;
+}
+
+#title {
+    margin-left: 4px;
+    font-size: 25px;
+    color: rgb(136, 16, 74);
+}
+
+.link-header {
+    margin-right: 35px;
+    font-size: 20px;
+    color: rgb(136, 16, 74);
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.link-header:hover {
+    color: rgb(114, 131, 230);
+}
+
+.button-link {
+    display: inline-block;
+    padding: 10px;
+    border: 0.5px solid rgb(136, 16, 74);
+    color: rgb(136, 16, 74);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 15px;
+    width: 130px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button-link:hover {
+    background: rgb(136, 16, 74);
+    color: #fff;
+}
+
+main {
+    display: flex;
+    margin: 10px;
+    padding: 30px;
+    align-items: center;
+}
+
+#content {
+    margin-top: 80px;
+    margin-left: 30px;
+    max-width: 600px;
+}
+
+#subtitle {
+    font-size: 40px;
+    color: rgb(136, 16, 74);
+    margin-bottom: 20px;
+}
+
+#lorem {
+    margin-bottom: 20px;
+}
+
+#content-two {
+    margin-left: 130px;
+    margin-top: 50px;
+}
+
+.box{
+    background: #fff;
+    border: 1px solid rgb(136, 16, 74);
+    padding: 40px;
+    border-radius: 20px;
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h3{
+    font-size: 20px;
+    color: rgb(136, 16, 74);
+    margin-left: 4px;
+}
+
+.btn-sign{
+    padding: 15px;
+    cursor: pointer;
+    margin: 10px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 10px;
+    transition: 0.1s ease-in-out;
+    font-size: 28px;
+}
+
+.btn-sign:hover{
+    opacity: 0.6;
+}
+
+#rock{
+    background: #7ab20a;
+}
+
+#paper{
+    background: #ff9900;
+}
+
+#scisor{
+    background: #8507a8;
+}
+
+.result{
+    color: rgb(93, 0, 12);
+    margin-bottom: 5px;
+}
+
+.your-score span{
+    color: rgb(0, 0, 122);
+    font-weight: 600;
+}
+
+.machine-score span{
+    color: rgb(93, 0, 12);
+    font-weight: 600;
+}
+
+
